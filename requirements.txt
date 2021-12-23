@@ -27,7 +27,6 @@ pydantic==1.8.2
 pylint==2.6.0
 python-dotenv==0.19.2
 python-multipart==0.0.5
-pywin32==227
 PyYAML==5.4.1
 requests==2.26.0
 six==1.15.0
