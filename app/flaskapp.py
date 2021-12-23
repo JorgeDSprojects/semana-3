@@ -8,7 +8,15 @@ from flask import Flask,jsonify, request
 
 app=Flask('__name__')
 
-@app.route('/', methods=['GET', 'POST'])
+
+@app.route('/')
+def home():
+
+
+    return ('This is an API that calculate BMI')
+
+
+@app.route('/bmi', methods=['GET', 'POST'])
 def get_input():
     '''
     A function to get request using flask, evaluate and return results
