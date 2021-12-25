@@ -44,3 +44,4 @@ websockets==10.1
 Werkzeug==2.0.2
 wincertstore==0.2
 wrapt==1.12.1
+gunicorn
